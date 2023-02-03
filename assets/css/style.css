@@ -147,9 +147,6 @@ button:focus {
     background: rgba(255, 255, 255, 1);
 }
 
-.swiper-navBtn i {
-    color: #000 !important;
-}
 
 .swiper-button-next {
     position: absolute;
@@ -321,6 +318,59 @@ nav {
     color: #a8a8a8;
 }
 
+/* work page */
+.work-page {
+    margin-top: 6rem !important;
+}
+
+.work-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.work-desc {
+    width: 60%;
+}
+
+.work-img {
+    width: 35%;
+}
+
+.work-img img {
+    max-width: 100%;
+}
+
+.work-next {
+    position: absolute;
+    left: 35%;
+    top: 60%;
+    background: #000 !important;
+    opacity: 1;
+    transition: all .5s;
+}
+
+.work-next:hover {
+    opacity: 0.5;
+}
+
+.work-prev {
+    position: absolute;
+    right: 35%;
+    top: 60%;
+    background: #000 !important;
+    opacity: 1;
+    transition: all .5s;
+}
+
+.work-prev:hover {
+    opacity: 0.5;
+}
+
+.swiper-work-slide {
+    height: 400px !important;
+}
+
 /* responsiveness */
 
 @media (max-width: 1200px) { 
@@ -421,8 +471,12 @@ nav {
     }
 
     /* Portfolio */
+    .grid-container {
+        grid-template-columns: auto auto;
+    }
 
     /* generic work page */
+    
 
     /* contact */
 
@@ -431,9 +485,38 @@ nav {
 @media (max-width: 576px) { 
     /* generic styles */
 
+    .main-header {
+        font-size: 30px;
+    }
+
     /* header */
 
     /* homepage */
+    .swiper-wrapper {
+        height: 70vh;
+    }
+
+    .card-info {
+        bottom: 50px;
+    }
+
+    .swiper-button-next {
+        left: 8%;
+    }
+
+    .swiper-button-prev {
+        right: 8%;
+    }
+
+    .swiper-navBtn {
+        width: 35px;
+        height: 35px;
+    }
+
+    .swiper-button-next, .swiper-button-prev {
+        top: 45%;
+    }
+
 
     /* Portfolio */
 
@@ -449,6 +532,36 @@ nav {
     /* header */
 
     /* homepage */
+    .swiper-wrapper {
+        height: 50vh;
+    }
+
+    .swiper-navBtn {
+        width: 30px;
+        height: 30px;
+    }
+
+    .mobile {
+        display: none;
+    }
+
+    .swiper {
+        top: 2.5rem;
+    }
+
+    .about-me-wrapped {
+        margin-top: 50px !important;
+    }
+
+    .my-story {
+        margin: auto 1.5rem;
+    }
+
+    .me {
+        max-width: 60%;
+        margin-bottom: 3rem;
+    }
+
 
     /* Portfolio */
 

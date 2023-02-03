@@ -38,8 +38,9 @@ if ( $_SERVER['REQUEST_METHOD'] == 'POST' ) {
     <script src="https://kit.fontawesome.com/ab972f586c.js" crossorigin="anonymous"></script> 
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.3/css/all.css" integrity="sha384-SZXxX4whJ79/gErwcOYf+zWLeJdY/qpuqC4cAa9rOGUstPomtqpuNWT9wdPEn2fk" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-    <link rel="icon" type="image/x-icon" href="">
+    <link rel="stylesheet" href="assets/css/swiper-bundle.min.css">
     <link rel="stylesheet" href="assets/css/style.css" media="screen" type="text/css">
+    <link rel="icon" type="image/x-icon" href="assets/images/favicon.png">
     <title>Jonny Whittle</title>
 </head>
 <body>
@@ -47,7 +48,7 @@ if ( $_SERVER['REQUEST_METHOD'] == 'POST' ) {
     <nav class="navbar navbar-expand-lg">
         <div class="container small-nav">
             <a class="navbar-brand" href="index.html">Jonny Whittle</a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <button class="navbar-toggler p-0" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
               <span class="navbar-toggler-icon"><i class="fa-solid fa-burger"></i></span>
             </button>
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
