@@ -392,6 +392,16 @@ nav {
     height: 400px !important;
 }
 
+/* work page no desc */
+#work-next {
+    left: 3%;
+    top: 45%;
+}
+
+#work-prev {
+    right: 3%;
+    top: 45%;
+}
 /* responsiveness */
 
 @media (max-width: 1200px) { 
